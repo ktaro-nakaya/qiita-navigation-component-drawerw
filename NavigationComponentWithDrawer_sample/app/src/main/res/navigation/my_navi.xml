@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navi"
+    app:startDestination="@id/blackFragment">
+
+    <fragment
+        android:id="@+id/blackFragment"
+        android:name="jp.co.casareal.navigationcomponentwithdrawer_sample.BlackFragment"
+        android:label="fragment_black"
+        tools:layout="@layout/fragment_black" />
+    <fragment
+        android:id="@+id/blueFragment"
+        android:name="jp.co.casareal.navigationcomponentwithdrawer_sample.BlueFragment"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue" />
+    <fragment
+        android:id="@+id/redFragment"
+        android:name="jp.co.casareal.navigationcomponentwithdrawer_sample.RedFragment"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_red" />
+</navigation>
