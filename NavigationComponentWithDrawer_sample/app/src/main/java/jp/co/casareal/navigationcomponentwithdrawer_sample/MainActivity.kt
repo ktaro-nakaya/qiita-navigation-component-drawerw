@@ -17,12 +17,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // 各種必要なオブジェクトを取得
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-
         val navController = navHostFragment.navController
-
         val navigationView = findViewById<NavigationView>(R.id.nav_view)
-
         val drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
 
         // ナビゲーションボタンとNavigation Drawerを紐付ける
